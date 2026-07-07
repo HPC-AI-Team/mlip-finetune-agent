@@ -1,0 +1,35 @@
+{
+  "name": "mlip-finetune-agent",
+  "version": "0.1.0+codex.20260706172153",
+  "description": "Codex workflows for installing ELoRA with uv, fine-tuning MACE MLIP models, evaluating accuracy, and packaging releases.",
+  "author": {
+    "name": "mingzhen-server",
+    "email": "atdawnorz@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "MLIP",
+    "MACE",
+    "ELoRA",
+    "fine-tuning",
+    "atomistic machine learning"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ELoRA MLIP Fine-Tune Agent",
+    "shortDescription": "Install ELoRA with uv, fine-tune MLIPs, evaluate accuracy, and package releases.",
+    "longDescription": "ELoRA MLIP Fine-Tune Agent adds reusable Codex skills and scripts for uv-based ELoRA environment setup, dataset preparation, low-rank MACE/ELoRA fine-tuning, accuracy evaluation, and model release packaging.",
+    "developerName": "mingzhen-server",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Set up the uv ELoRA MLIP environment.",
+      "Prepare data for an ELoRA fine-tuning run.",
+      "Run ELoRA fine-tuning and package the model."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
